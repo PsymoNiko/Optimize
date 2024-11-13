@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - develop
+      - my-first-branch
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
