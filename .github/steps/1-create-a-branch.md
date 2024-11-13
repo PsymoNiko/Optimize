@@ -6,40 +6,36 @@
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Create a branch
+## The whole concept.. 
 
-_Welcome to "Introduction to GitHub"! :wave:_
+The key concepts in system design for backend engineering include:
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+1. **Architecture**: The high-level structure and organization of the system, including the choice of programming languages, frameworks, databases, and other technologies.
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+2. **Modularity**: Designing the system as a set of loosely coupled, independent components that can be developed, tested, and deployed separately.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+3. **Scalability**: Ensuring the system can handle increasing amounts of traffic, data, and user load without compromising performance.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+4. **Reliability**: Designing the system to be fault-tolerant, with mechanisms to handle failures and maintain availability.
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+5. **Performance**: Optimizing the system's response times, throughput, and resource utilization.
 
-![profile-readme-example](/images/profile-readme-example.png)
+6. **Security**: Implementing measures to protect the system from various security threats, such as authentication, authorization, and input validation.
 
-### :keyboard: Activity: Your first branch
+7. **Data Management**: Designing the data model, storage solutions, and data processing pipelines to efficiently handle the system's data requirements.
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+8. **API Design**: Defining the API endpoints, request/response formats, and overall API design principles to enable seamless integration with other systems.
 
-   ![code-tab](/images/code-tab.png)
+9. **Asynchronous Processing**: Implementing asynchronous communication patterns, such as message queues and event-driven architectures, to handle long-running tasks and decouple components.
 
-3. Click on the **main** branch drop-down.
+10. **Monitoring and Observability**: Implementing logging, metrics, and tracing to gain visibility into the system's behavior and facilitate troubleshooting and optimization.
 
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
+11. **Deployment and Infrastructure**: Designing the deployment process, containerization, and infrastructure provisioning to ensure consistent and reliable deployments.
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+12. **Continuous Integration and Deployment**: Implementing automated build, test, and deployment pipelines to enable frequent and reliable updates to the system.
 
-   ![create-branch-button](/images/create-branch-button.png)
+13. **Testability**: Designing the system with testability in mind, including unit tests, integration tests, and end-to-end tests.
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+14. **Maintainability**: Ensuring the system's codebase is well-structured, documented, and easy to understand and modify over time.
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+These concepts form the foundation of system design for backend engineering and should be considered throughout the design and development process.
