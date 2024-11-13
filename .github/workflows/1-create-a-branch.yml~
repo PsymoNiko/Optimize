@@ -44,7 +44,7 @@ jobs:
       ${{ !github.event.repository.is_template
           && needs.get_current_step.outputs.current_step == 1
           && github.ref_type == 'branch'
-          && github.ref_name == 'develop' }}
+          && github.ref_name == 'my-first-branch' }}
 
     # We'll run Ubuntu for performance instead of Mac or Windows.
     runs-on: ubuntu-latest
@@ -63,4 +63,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 1
           to_step: 2
-          branch_name: develop
+          branch_name: foundations
