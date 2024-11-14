@@ -1,61 +1,47 @@
-Here are some steps to start system design as a backend engineer:
-
-1. Understand the problem domain: Familiarize yourself with the business requirements, use cases, and the overall context of the system you're designing. This will help you identify the key components and their interactions.
-
-2. Define the system architecture: Decide on the high-level architecture of the system, such as the choice of programming language, database, message queues, caching mechanisms, and other relevant technologies.
-
-3. Identify the core components: Break down the system into its core components, such as the API layer, data layer, business logic, and any supporting services. Understand the responsibilities and interactions of these components.
-
-4. Design the data model: Determine the data entities, their relationships, and the appropriate data storage solutions (e.g., relational database, NoSQL database, or a combination).
-
-5. Design the API: Define the API endpoints, request/response formats, and the overall API design principles (e.g., RESTful, GraphQL).
-
-6. Implement scalability and reliability: Consider how the system will handle increased load, such as by implementing caching, load balancing, and horizontal scaling. Also, design for fault tolerance and high availability.
-
-7. Incorporate security and access control: Identify potential security risks and implement appropriate measures, such as authentication, authorization, and input validation.
-
-8. Optimize performance: Analyze the system's performance bottlenecks and implement optimization techniques, such as indexing, caching, and asynchronous processing.
-
-9. Document the design: Create detailed documentation that covers the system architecture, component interactions, API specifications, and any other relevant information.
-
-10. Continuously iterate and improve: As the system evolves, review the design, identify areas for improvement, and make necessary changes to maintain the system's scalability, reliability, and performance.
-
-Remember, system design is an iterative process, and the specific steps may vary depending on the complexity of the system and the organization's requirements.
 
 
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+-->
 
----
+## Step 2: Commit a file
 
-## The whole concept.. 
+_You created a branch! :tada:_
 
-The key concepts in system design for backend engineering include:
+Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
 
-1. **Architecture**: The high-level structure and organization of the system, including the choice of programming languages, frameworks, databases, and other technologies.
+**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
 
-2. **Modularity**: Designing the system as a set of loosely coupled, independent components that can be developed, tested, and deployed separately.
+### :keyboard: Activity: Your first commit
 
-3. **Scalability**: Ensuring the system can handle increasing amounts of traffic, data, and user load without compromising performance.
+The following steps will guide you through the process of committing a change on GitHub. A commit records changes in renaming, changing content within, creating a new file, and any other changes made to your project. For this exercise, committing a change requires first adding a new file to your new branch.
 
-4. **Reliability**: Designing the system to be fault-tolerant, with mechanisms to handle failures and maintain availability.
+> [!NOTE]
+> `.md` is a file extension that creates a Markdown file. You can learn more about Markdown by visiting "[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" in our docs or by taking the "[Communicating using Markdown](https://github.com/skills/communicate-using-markdown)" Skills course.
 
-5. **Performance**: Optimizing the system's response times, throughput, and resource utilization.
+1. On the **< > Code** tab in the header menu of your repository, make sure you're on your new branch `my-first-branch`.
 
-6. **Security**: Implementing measures to protect the system from various security threats, such as authentication, authorization, and input validation.
+2. Select the **Add file** drop-down and click **Create new file**.
 
-7. **Data Management**: Designing the data model, storage solutions, and data processing pipelines to efficiently handle the system's data requirements.
+   ![create new file option](/images/create-new-file.png)
 
-8. **API Design**: Defining the API endpoints, request/response formats, and overall API design principles to enable seamless integration with other systems.
+3. In the **Name your file...** field, enter `PROFILE.md`.
 
-9. **Asynchronous Processing**: Implementing asynchronous communication patterns, such as message queues and event-driven architectures, to handle long-running tasks and decouple components.
+4. In the **Enter file contents here** area, copy the following content to your file:
 
-10. **Monitoring and Observability**: Implementing logging, metrics, and tracing to gain visibility into the system's behavior and facilitate troubleshooting and optimization.
+   ```
+   Welcome to my GitHub profile!
+   ```
 
-11. **Deployment and Infrastructure**: Designing the deployment process, containerization, and infrastructure provisioning to ensure consistent and reliable deployments.
+   ![profile.md file screenshot](/images/my-profile-file.png")
 
-12. **Continuous Integration and Deployment**: Implementing automated build, test, and deployment pipelines to enable frequent and reliable updates to the system.
+5. Click **Commit changes...** in the upper right corner above the contents box. For commits, you can enter a short commit message that describes what changes you made. This message helps others know what's included in your commit. GitHub offers a simple default message, but let's change it slightly for practice. First, enter `Add PROFILE.md` in the first text-entry field titled "Commit message".
 
-13. **Testability**: Designing the system with testability in mind, including unit tests, integration tests, and end-to-end tests.
+   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png")
 
-14. **Maintainability**: Ensuring the system's codebase is well-structured, documented, and easy to understand and modify over time.
+6. In this lesson, we'll ignore the other fields and click **Commit changes**.
+7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
-These concepts form the foundation of system design for backend engineering and should be considered throughout the design and development process.
+
